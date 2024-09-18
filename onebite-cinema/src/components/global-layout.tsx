@@ -11,7 +11,7 @@ export default function GlobalLayout({children}:{
         <Link href={'/'} className={style.menu}>🍿 ONEBITE CINEMA</Link>
       </header>
       <main className={style.main}>{children}</main>
-      <footer className={style.footer}>Footer</footer>
+      <footer className={style.footer}>@bi0816</footer>
     </div>
   )
 }

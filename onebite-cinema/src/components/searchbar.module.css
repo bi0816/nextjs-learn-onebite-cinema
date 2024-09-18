@@ -1,9 +1,9 @@
 
-.search_box {
+.box {
   display: flex;
 }
 
-.search_box .input {
+.input {
   width: 100%;
   padding: 10px;
   box-sizing: border-box;
@@ -13,7 +13,7 @@
   color: rgba(204,204,204,.8);
 }
 
-.search_box .btn_submit {
+.btn_submit {
   flex: none;
   margin-left: 10px;
   font-size: 14px;
@@ -23,4 +23,12 @@
   color: rgba(204,204,204,.8);
   border-radius: 5px;
   cursor: pointer;
+}
+
+.btn_submit:hover {
+  background-color: rgba(78,78,78,.9);
+}
+
+.btn_submit:active {
+  background-color: rgba(78,78,78,1);
 }

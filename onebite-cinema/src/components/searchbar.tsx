@@ -32,7 +32,7 @@ export default function SearchBar({children}:{children: ReactNode}) {
 
   return (
     <>
-    <form onSubmit={stopEvent} className={style.search_box}>
+    <form onSubmit={stopEvent} className={style.box}>
       <input type="text" placeholder="검색어를 입력해주세요." className={style.input}
         value={search} onChange={onChangeSearch} onKeyDown={onKeyDown} />
       <button type="submit" onClick={onSubmit} className={style.btn_submit}>검색</button>
