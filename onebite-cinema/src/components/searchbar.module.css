@@ -1,0 +1,26 @@
+
+.search_box {
+  display: flex;
+}
+
+.search_box .input {
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+  border-radius: 5px;
+  border: 1px solid rgba(78,78,78,.8);
+  background-color: transparent;
+  color: rgba(204,204,204,.8);
+}
+
+.search_box .btn_submit {
+  flex: none;
+  margin-left: 10px;
+  font-size: 14px;
+  padding: 15px 20px;
+  background-color: rgba(78,78,78,.8);
+  border: none;
+  color: rgba(204,204,204,.8);
+  border-radius: 5px;
+  cursor: pointer;
+}
