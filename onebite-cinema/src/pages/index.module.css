@@ -1,5 +1,13 @@
-.result_box {
-  padding: 20px 0;
+.movie_list_box {
+  padding: 40px 0;
+}
+
+.movie_list_box + .movie_list_box {
+  padding-top: 0;
+}
+
+.movie_list_box .title {
+  margin-bottom: 15px;
 }
 
 .movie_list {
@@ -9,7 +17,7 @@
 
 .movie_item {
   position: relative;
-  width: calc(100% / 3);
+  width: calc(100% / 4);
   padding: 10px;
   box-sizing: border-box;
   background-color: transparent;

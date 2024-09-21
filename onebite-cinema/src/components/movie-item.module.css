@@ -1,0 +1,10 @@
+.menu {
+  display: inline-block;
+  position: relative;
+  z-index: 1;
+}
+
+.menu img {
+  display: block;
+  max-width: 100%;
+}
